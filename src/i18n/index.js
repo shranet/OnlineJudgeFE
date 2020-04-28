@@ -4,9 +4,8 @@ import VueI18n from 'vue-i18n'
 Vue.use(VueI18n)
 
 const languages = [
+  {value: 'uz-LAT', label: "O'zbekcha"},
   {value: 'en-US', label: 'English'},
-  {value: 'zh-CN', label: '简体中文'},
-  {value: 'zh-TW', label: '繁體中文'}
 ]
 const messages = {}
 
@@ -19,7 +18,7 @@ for (let lang of languages) {
 }
 // load language packages
 export default new VueI18n({
-  locale: 'en-US',
+  locale: 'uz-LAT',
   messages: messages
 })
 
