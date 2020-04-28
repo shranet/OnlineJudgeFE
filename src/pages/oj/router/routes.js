@@ -24,62 +24,62 @@ export default [
   {
     name: 'home',
     path: '/',
-    meta: {title: 'Home'},
+    meta: {title: 'Bosh sahifa'},
     component: Home
   },
   {
     name: 'logout',
     path: '/logout',
-    meta: {title: 'Logout'},
+    meta: {title: 'Chiqish'},
     component: Logout
   },
   {
     name: 'apply-reset-password',
     path: '/apply-reset-password',
-    meta: {title: 'Apply Reset Password'},
+    meta: {title: 'Parolni tiklashni tasdiqlash'},
     component: ApplyResetPassword
   },
   {
     name: 'reset-password',
     path: '/reset-password/:token',
-    meta: {title: 'Reset Password'},
+    meta: {title: 'Parolni tiklash'},
     component: ResetPassword
   },
   {
     name: 'problem-list',
     path: '/problem',
-    meta: {title: 'Problem List'},
+    meta: {title: 'Masalalar'},
     component: ProblemList
   },
   {
     name: 'problem-details',
     path: '/problem/:problemID',
-    meta: {title: 'Problem Details'},
+    meta: {title: 'Masala'},
     component: Problem
   },
   {
     name: 'submission-list',
     path: '/status',
-    meta: {title: 'Submission List'},
+    meta: {title: 'Jo\'natmalar'},
     component: SubmissionList
   },
   {
     name: 'submission-details',
     path: '/status/:id/',
-    meta: {title: 'Submission Details'},
+    meta: {title: 'Jo\'natma holati'},
     component: SubmissionDetails
   },
   {
     name: 'contest-list',
     path: '/contest',
-    meta: {title: 'Contest List'},
+    meta: {title: 'Tanlovlar ro\'yxati'},
     component: Contest.ContestList
   },
   {
     name: 'contest-details',
     path: '/contest/:contestID/',
     component: Contest.ContestDetails,
-    meta: {title: 'Contest Details'},
+    meta: {title: 'Tanlov'},
     children: [
       {
         name: 'contest-submission-list',
@@ -116,20 +116,20 @@ export default [
   {
     name: 'acm-rank',
     path: '/acm-rank',
-    meta: {title: 'ACM Rankings'},
+    meta: {title: 'ACM Baholar'},
     component: ACMRank
   },
   {
     name: 'oi-rank',
     path: '/oi-rank',
-    meta: {title: 'OI Rankings'},
+    meta: {title: 'OI Baholar'},
     component: OIRank
   },
   {
     name: 'user-home',
     path: '/user-home',
     component: UserHome,
-    meta: {requiresAuth: true, title: 'User Home'}
+    meta: {requiresAuth: true, title: 'Foyalanuvchi kabineti'}
   },
   {
     path: '/setting',
@@ -138,25 +138,25 @@ export default [
       {
         name: 'default-setting',
         path: '',
-        meta: {requiresAuth: true, title: 'Default Settings'},
+        meta: {requiresAuth: true, title: 'Dastlabki sozlashlar'},
         component: Setting.ProfileSetting
       },
       {
         name: 'profile-setting',
         path: 'profile',
-        meta: {requiresAuth: true, title: 'Profile Settings'},
+        meta: {requiresAuth: true, title: 'Profil sozlashlari'},
         component: Setting.ProfileSetting
       },
       {
         name: 'account-setting',
         path: 'account',
-        meta: {requiresAuth: true, title: 'Account Settings'},
+        meta: {requiresAuth: true, title: 'Akkount sozlashlari'},
         component: Setting.AccountSetting
       },
       {
         name: 'security-setting',
         path: 'security',
-        meta: {requiresAuth: true, title: 'Security Settings'},
+        meta: {requiresAuth: true, title: 'Xavfsizlik sozlashlari'},
         component: Setting.SecuritySetting
       }
     ]
@@ -164,7 +164,7 @@ export default [
   {
     path: '/about',
     name: 'about',
-    meta: {title: 'About'},
+    meta: {title: 'Biz haqimizda'},
     component: About
   },
   {

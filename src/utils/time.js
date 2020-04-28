@@ -1,7 +1,7 @@
 import moment from 'moment'
 
 // convert utc time to localtime
-function utcToLocal (utcDt, format = 'YYYY-M-D  HH:mm:ss') {
+function utcToLocal (utcDt, format = 'DD.MM.YYYY HH:mm') {
   return moment.utc(utcDt).local().format(format)
 }
 

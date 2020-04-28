@@ -297,7 +297,7 @@
       ...mapGetters(['isAuthenticated', 'user']),
       title () {
         if (!this.contestID) {
-          return this.$i18n.t('m.Status')
+          return this.$i18n.t('m.Submissions')
         } else if (this.problemID) {
           return this.$i18n.t('m.Problem_Submissions')
         } else {

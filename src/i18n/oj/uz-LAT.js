@@ -5,8 +5,8 @@ export const m = {
   Description: 'Izoh',
   Input: "Kirish ma'lumotlari",
   Output: 'Natija',
-  Sample_Input: 'Namuna kiritish',
-  Sample_Output: 'Namuna natija',
+  Sample_Input: 'Misol',
+  Sample_Output: 'Natija',
   Hint: 'Maslahat',
   Source: 'Manba',
   Status: 'Holat',
@@ -57,7 +57,7 @@ export const m = {
   // ACMHelper.vue
   ACM_Helper: 'ACM yordamchi',
   AC_Time: 'AC Vaqt',
-  ProblemID: 'MuammoID',
+  ProblemID: 'MasalaID',
   First_Blood: 'First Blood',
   Username: 'Niknomi',
   Checked: 'Belgilangan',
@@ -109,7 +109,7 @@ export const m = {
   // Cancel.vue
   Cancel: 'Bekor qilish',
   // ContestDetail.vue
-  Problems: 'Muammolar',
+  Problems: 'Masalalar',
   Announcements: 'Xabarlar',
   Submissions: "Jo'natmalar",
   Rankings: 'Baholar',
@@ -131,8 +131,8 @@ export const m = {
   No_contest: "Tanlov e'lon qilinmagan",
   Please_login_first: 'Iltimos, oldin tizimga kiring!',
   // ContestProblemList
-  Problems_List: "Muammolar ro'yxati",
-  No_Problems: 'Muammolar mavjud emas',
+  Problems_List: "Masalalar ro'yxati",
+  No_Problems: 'Masala mavjud emas',
   // CodeMirror.vue
   Language: 'Til',
   Theme: "Ko'rinish",
@@ -145,9 +145,9 @@ export const m = {
   Latex_Editor: 'Latex Editor',
   // NavBar.vue
   Home: 'Bosh sahifa',
-  NavProblems: 'Muammolar',
+  NavProblems: 'Masalalar',
   Contests: 'Tanlovlar',
-  NavStatus: 'Holati',
+  NavStatus: 'Jo\'natmalar',
   Rank: 'Baho',
   ACM_Rank: 'ACM Baho',
   OI_Rank: 'OI Baho',
@@ -193,13 +193,13 @@ export const m = {
   // OIContestRank.vue
   Total_Score: 'Umumiy baho',
   // ProblemList.vue
-  Problem_List: "Muammolar ro'yxati",
+  Problem_List: "Masalalar ro'yxati",
   High: 'Qiyin',
   Mid: "O'rtacha",
   Low: 'Oson',
   All: 'Barchasi',
   Reset: 'Tozalash',
-  Pick_One: 'Bittasini tanlang',
+  Pick_One: 'Tasodif masala',
   Difficulty: 'Qiyinlik darajasi',
   Total: 'Jami',
   AC_Rate: 'AC Baho',
@@ -244,9 +244,9 @@ export const m = {
   Mine: 'Meniki',
   Search_Author: 'Muallifni qidirish',
   Accepted: 'Qabul qilingan',
-  Time_Limit_Exceeded: 'Vaqti oshi ketdi',
+  Time_Limit_Exceeded: 'Vaqti oshib ketdi',
   Memory_Limit_Exceeded: 'Xotira oshib ketdi',
-  Runtime_Error: 'Runtime xatolik',
+  Runtime_Error: 'Yuklaganda xatolik',
   System_Error: 'Tizim xatoligi',
   Pending: 'Navbatda',
   Partial_Accepted: 'Ayrimlari qabul qilindi',
@@ -256,6 +256,6 @@ export const m = {
   UserHomeSolved: 'Yechilgan',
   UserHomeserSubmissions: "Jo'natmalar",
   UserHomeScore: 'Baho',
-  List_Solved_Problems: 'Muvaffaqiyatli yechilgan muammolar',
-  UserHomeIntro: 'Siz hali bittayam muammoni muvaffaqiyatli yechmagansiz.'
+  List_Solved_Problems: 'Muvaffaqiyatli yechilgan masalalar',
+  UserHomeIntro: 'Siz hali bittayam masalani muvaffaqiyatli yechmagansiz.'
 }
