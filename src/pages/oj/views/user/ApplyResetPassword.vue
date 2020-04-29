@@ -17,7 +17,7 @@
             </div>
             <div class="oj-captcha-img">
               <Tooltip content="Click to refresh" placement="top">
-                <img :src="captchaSrc" @click="getCaptchaSrc"/>
+                <img :src="captchaSrc" @click="getCaptchoaSrc"/>
               </Tooltip>
             </div>
           </div>
@@ -32,7 +32,7 @@
     <template v-else>
       <Alert type="success" show-icon>
         {{$t('Success')}}
-        <span slot="desc"> {{$t('Password_reset_mail_sent')}}</span>
+        <span slot="desc"> {{$t('m.Password_reset_mail_sent')}}</span>
       </Alert>
     </template>
   </Panel>

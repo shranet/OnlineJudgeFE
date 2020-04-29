@@ -254,7 +254,7 @@
           title: this.$i18n.t('m.Option'),
           fixed: 'right',
           align: 'center',
-          width: 90,
+          width: 150,
           render: (h, params) => {
             return h('Button', {
               props: {

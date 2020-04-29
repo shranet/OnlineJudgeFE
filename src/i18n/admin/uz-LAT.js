@@ -80,7 +80,7 @@ export const m = {
   SPJ_language: 'SPJ language',
   Compile: 'Compile',
   TestCase: 'TestCase',
-  IOMode: 'IO Mode',
+  IOMode: 'IO rejimi',
   InputFileName: 'Input File Name',
   OutputFileName: 'Output File Name',
   Type: 'Type',
@@ -120,5 +120,10 @@ export const m = {
   Welcome_to_Login: 'Welcome to Login',
   GO: 'GO',
   username: 'username',
-  password: 'password'
+  password: 'password',
+  SaveAsImage: 'Rasm qilib saqlash',
+  MagicType_Line: 'Chiziqli',
+  MagicType_Bar: 'Diagramma',
+  MagicType_Stack: 'Usta-ust',
+  DataView: 'Ma\'lumotni ko\'rish'
 }

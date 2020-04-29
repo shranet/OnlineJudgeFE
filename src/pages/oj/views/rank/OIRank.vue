@@ -103,9 +103,9 @@
           toolbox: {
             show: true,
             feature: {
-              dataView: {show: true, readOnly: true},
-              magicType: {show: true, type: ['line', 'bar']},
-              saveAsImage: {show: true}
+              dataView: {show: true, readOnly: true, title: this.$i18n.t('m.DataView')},
+              magicType: {show: true, type: ['line', 'bar'], title: {line: this.$i18n.t('m.MagicType_Line'), bar: this.$i18n.t('m.MagicType_Bar')}},
+              saveAsImage: {show: true, title: this.$i18n.t('m.SaveAsImage')}
             },
             right: '10%'
           },

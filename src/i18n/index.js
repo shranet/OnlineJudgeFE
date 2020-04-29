@@ -13,7 +13,6 @@ const messages = {}
 for (let lang of languages) {
   let locale = lang.value
   let m = require(`./oj/${locale}`).m
-  console.log(m)
   Object.assign(m, require(`./admin/${locale}`).m)
   messages[locale] = {m: m}
 }
