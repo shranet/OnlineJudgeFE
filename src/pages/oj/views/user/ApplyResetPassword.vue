@@ -17,7 +17,7 @@
             </div>
             <div class="oj-captcha-img">
               <Tooltip content="Click to refresh" placement="top">
-                <img :src="captchaSrc" @click="getCaptchoaSrc"/>
+                <img :src="captchaSrc" @click="getCaptchaSrc"/>
               </Tooltip>
             </div>
           </div>
